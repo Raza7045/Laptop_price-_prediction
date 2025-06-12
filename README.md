@@ -7,73 +7,45 @@ Predict the price of a laptop using regression techniques by analyzing key speci
 
 📁 Dataset
 The dataset contains information about various laptop models, including:
-
 Brand
-
 Processor type
-
 RAM size
-
 Storage (HDD/SSD)
-
 GPU details
-
 Operating System
-
 Weight
-
 Touchscreen support
-
 Screen Size and Resolution
-
 Price (Target Variable)
 
-The dataset was sourced from [Kaggle / Custom Scraped] (mention source if applicable).
 
 ⚙️ Technologies Used
 Python
-
 Pandas
-
 NumPy
-
 Matplotlib & Seaborn (for visualization)
-
 Scikit-learn (for model building)
-
 Jupyter Notebook
 
 🔧 Steps Involved
-Data Cleaning
-
+- Data Cleaning
 Handled missing values
-
 Removed duplicates
-
 Converted categorical variables
 
-Exploratory Data Analysis (EDA)
-
+- Exploratory Data Analysis (EDA)
 Visualized relationships between features and price
-
 Identified key variables influencing price
 
-Feature Engineering
-
+- Feature Engineering
 Extracted relevant info from complex columns
-
 One-hot encoded categorical variables
 
-Model Building
-
+- Model Building
 Trained multiple regression models: Linear Regression, Ridge, Lasso, Random Forest
-
 Evaluated using R² score and RMSE
-
 Tuned hyperparameters for best performance
 
-Results
-
+-Results
 Achieved high accuracy using Random Forest Regressor
-
 Final model deployed for predictions
